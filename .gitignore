@@ -1,0 +1,25 @@
+# --- Rust build artifacts ---
+renderer/target/
+**/Cargo.lock.tmp
+
+# --- Python ---
+backend/.venv/
+__pycache__/
+*.py[cod]
+
+# --- generated media / user data (not source) ---
+backend/jobs/
+backend/projects/
+demo-job/
+out.mp4
+*.mp4
+*.m4a
+*.wav
+*.srt
+*.png
+frames/
+*frames/**
+
+# --- os / editor ---
+.DS_Store
+nohup.out
